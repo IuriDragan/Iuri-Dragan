@@ -53,6 +53,5 @@ $ curl -H"accept:application/json" -H"Content-Type:application/json" -X GET http
 $ curl -H"accept:application/json" -H"Content-Type:application/json" -X GET https://petstore.swagger.io/v2/pet/findByStatus?status=pending
 $ curl -H"accept:application/json" -H"Content-Type:application/json" -X GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
 
-
 Используя POST и команду curl, создайте нового пользователя на https://petstore.swagger.io/
 $ curl -H"accept:application/json" -H"Content-Type:application/json" -X POST https://petstore.swagger.io/v2/user -d'{"id":19, "username":"JohnCena", "firstName":"John", "lastName":"Cena", "email":"gaffgajd@mail.ru", "password":"riuwiergi", "phone":"85436856", "userStatus":0 }'
