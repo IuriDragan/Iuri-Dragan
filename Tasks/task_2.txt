@@ -1,5 +1,5 @@
 Зайти в домашнюю директорию
-$ cd /c/Users/user/W-MeanWhy
+$ cd ~
 
 Создать папку test 3
 $ mkdir test3
